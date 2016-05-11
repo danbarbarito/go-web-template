@@ -12,6 +12,8 @@
 
 ## How to Use
 
+`go get github.com/danielbarbarito/go-web-template`
+
 `cd $GOPATH/src/github.com/danielbarbarito/`
 
 `cp -r go-web-template <Your App Name>`
