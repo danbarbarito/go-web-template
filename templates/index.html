@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section id="home">
+<section id="header">
+  <h2 class="title">A dead simple personal playlist.</h2>
+  <a class="button button-primary" href="/sign_up">Sign Up</a>
+  <hr/>
+  <div class="value-props row">
+    <div class="four columns value-prop">
+      <img class="value-img" src="/static/images/playlist.svg">
+      Create a playlist that represents you. Share it with the world and show everybody what you're all about.
+    </div>
+    <div class="four columns value-prop">
+      <img class="value-img" src="/static/images/play-button.svg">
+      Add your favorite videos from Youtube...
+    </div>
+    <div class="four columns value-prop">
+      <img class="value-img" src="/static/images/headphones.svg">
+      ...or your favorite sounds from Soundcloud.
+    </div>
+  </div>
+</section>
+
+
+<section id="discover">
+  <h1>Discover Playlists</h1>
+</section>
+
+<footer>
+  <div class="row">
+    <div class="four columns">
+      Created by <a href="http://barbarito.me">Dan Barbarito</a>
+    </div>
+  </div>
+</footer>
+
+{% endblock %}

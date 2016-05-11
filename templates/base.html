@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+
+        <link rel="stylesheet" href="/static/stylesheets/nav.css" />
+        <link rel="stylesheet" href="/static/stylesheets/normalize.css" />
+        <link rel="stylesheet" href="/static/stylesheets/skeleton.css" />
+        <link rel="stylesheet" href="/static/stylesheets/styles.css" />
+
+        <script src="/static/js/responsive-nav.js"></script>
+
+        <title>{% block title %}Picolist{% endblock %}</title>
+    </head>
+
+<body>
+
+        <header>
+            <a href="/" class="logo" data-scroll>Picolist</a>
+            <nav class="nav-collapse">
+                <ul>
+                  <li class="menu-item"><a href="#discover" data-scroll>Discover</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+
+            <div id="content">
+                {% block content %}{% endblock %}
+            </div>
+
+        </div>
+
+        <script src="/static/js/fastclick.js"></script>
+        <script src="/static/js/scroll.js"></script>
+        <script src="/static/js/fixed-responsive-nav.js"></script>
+
+    </body>
+</html>
