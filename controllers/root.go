@@ -8,7 +8,7 @@ import (
 	"github.com/flosch/pongo2"
 	"github.com/julienschmidt/httprouter"
 	"gopkg.in/mgo.v2"
-	_ "gopkg.in/mgo.v2/bson"
+	"gopkg.in/mgo.v2/bson"
 
 	// Project
 	"github.com/danielbarbarito/go-web-template/models"
