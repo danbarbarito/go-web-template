@@ -31,9 +31,9 @@ func (c RootController) Show(w http.ResponseWriter, r *http.Request, ps httprout
 
 	u := models.User{}
 
-	// u.Name = "Dan Barbarito"
+	u.Name = "Dan Barbarito"
 
-	// u.Id = bson.NewObjectId()
+	u.Id = bson.NewObjectId()
 
 	// c.session.DB("test").C("users").Insert(u)
 
